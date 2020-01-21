@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="795.0" style="-fx-background-image: url(game_bg.jpg);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartGameController">
+   <children>
+      <GridPane fx:id="questionGrid" layoutX="246.0" prefHeight="256.0" prefWidth="549.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" prefHeight="69.0" prefWidth="181.0" text="100" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="73.0" prefWidth="180.0" text="200" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="189.0" text="300" GridPane.columnIndex="3" GridPane.rowIndex="0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="163.0" text="400" GridPane.columnIndex="4" GridPane.rowIndex="0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="81.0" prefWidth="162.0" text="500" GridPane.columnIndex="5" GridPane.rowIndex="0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="95.0" prefWidth="240.0" text="100" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="80.0" prefWidth="218.0" text="200" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="207.0" text="300" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="61.0" prefWidth="184.0" text="400" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="69.0" prefWidth="167.0" text="500" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="151.0" text="100" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="73.0" prefWidth="147.0" text="200" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="62.0" prefWidth="140.0" text="300" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="64.0" prefWidth="163.0" text="400" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="120.0" text="500" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="59.0" prefWidth="160.0" text="100" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="74.0" prefWidth="197.0" text="100" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="71.0" prefWidth="180.0" text="100" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="67.0" prefWidth="159.0" text="200" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="138.0" text="200" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="76.0" prefWidth="159.0" text="200" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="165.0" text="300" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="48.0" prefWidth="133.0" text="400" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="207.0" text="300" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="178.0" text="300" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="142.0" text="500" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="68.0" prefWidth="167.0" text="500" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="62.0" prefWidth="159.0" text="400" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="67.0" prefWidth="141.0" text="400" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="49.0" prefWidth="140.0" text="500" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Button>
+            <Label alignment="CENTER" prefHeight="83.0" prefWidth="207.0" text="Theme 1"  style="-fx-text-alignment: justify" GridPane.columnIndex="0" GridPane.rowIndex="0">
+
+            </Label>
+            <Label alignment="CENTER" prefHeight="75.0" prefWidth="172.0" text="Theme 2"  style="-fx-text-alignment: justify" GridPane.columnIndex="0" GridPane.rowIndex="1">
+
+            </Label>
+            <Label alignment="CENTER" prefHeight="70.0" prefWidth="170.0" text="Theme 3" style="-fx-text-alignment: justify"  GridPane.columnIndex="0" GridPane.rowIndex="2">
+
+            </Label>
+            <Label alignment="CENTER" prefHeight="64.0" prefWidth="159.0" text="Theme 4" style="-fx-text-alignment: justify"  GridPane.columnIndex="0" GridPane.rowIndex="3">
+
+            </Label>
+            <Label alignment="CENTER" prefHeight="58.0" prefWidth="167.0" text="Theme 5" style="-fx-text-alignment: justify"  GridPane.columnIndex="0" GridPane.rowIndex="4">
+
+            </Label>
+            <Label alignment="CENTER" prefHeight="60.0" prefWidth="171.0" text="Theme 6"  style="-fx-text-alignment: justify" GridPane.columnIndex="0" GridPane.rowIndex="5">
+
+            </Label>
+         </children>
+      </GridPane>
+      <AnchorPane fx:id="questionPane" layoutX="248.0" prefHeight="256.0" prefWidth="549.0" style="-fx-background-color: green;" visible="false">
+         <children>
+            <Label fx:id="questionLabel" alignment="CENTER" prefHeight="256.0" prefWidth="549.0" style="-fx-text-alignment: justify" text="Label">
+            </Label>
+         </children></AnchorPane>
+      <ImageView fx:id="masterImg" fitHeight="200.0" fitWidth="200.0" layoutX="24.0" layoutY="54.0" pickOnBounds="true">
+         <image>
+            <Image url="@../EWAcjwxfRTY.jpg" />
+         </image></ImageView>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="25.0" prefHeight="29.0" prefWidth="200.0" text="Game master:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="firstPlayerImg" fitHeight="130.0" fitWidth="130.0" layoutX="33.0" layoutY="358.0" pickOnBounds="true">
+         <image>
+            <Image url="@../EWAcjwxfRTY.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="secondPlayerImg" fitHeight="130.0" fitWidth="130.0" layoutX="233.0" layoutY="358.0" pickOnBounds="true">
+         <image>
+            <Image url="@../EWAcjwxfRTY.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="thirdPlayerImg" fitHeight="130.0" fitWidth="130.0" layoutX="433.0" layoutY="358.0" pickOnBounds="true">
+         <image>
+            <Image url="@../EWAcjwxfRTY.jpg" />
+         </image></ImageView>
+      <ImageView fx:id="fourthPlayerImg" fitHeight="130.0" fitWidth="130.0" layoutX="633.0" layoutY="358.0" pickOnBounds="true">
+         <image>
+            <Image url="@../EWAcjwxfRTY.jpg" />
+         </image></ImageView>
+      <Label fx:id="firstPlayerName" alignment="CENTER" layoutX="33.0" layoutY="488.0" prefHeight="29.0" prefWidth="130.0" text="Player 1">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="secondPlayerName" alignment="CENTER" layoutX="233.0" layoutY="488.0" prefHeight="29.0" prefWidth="130.0" text="Player 2">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="thirdPlayerName" alignment="CENTER" layoutX="433.0" layoutY="488.0" prefHeight="29.0" prefWidth="130.0" text="Player 3">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="fourthPlayerName" alignment="CENTER" layoutX="633.0" layoutY="488.0" prefHeight="29.0" prefWidth="130.0" text="Player 4">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="masterName" alignment="CENTER" layoutX="24.0" layoutY="254.0" prefHeight="29.0" prefWidth="200.0" text="Nicknamemaster:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="337.0" layoutY="261.0" mnemonicParsing="false" onAction="#iknowanswerAction" prefHeight="79.0" prefWidth="458.0" style="-fx-background-color: #9d0000;" text="I KNOW ANSWER1!!11" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <Label fx:id="firstPlayerScore" alignment="CENTER" layoutX="52.0" layoutY="517.0" prefHeight="25.0" prefWidth="92.0" text="0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="secondPlayerScore" alignment="CENTER" layoutX="252.0" layoutY="517.0" prefHeight="25.0" prefWidth="92.0" text="0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="thirdPlayerScore" alignment="CENTER" layoutX="452.0" layoutY="517.0" prefHeight="25.0" prefWidth="92.0" text="0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="fourthPlayerScore" alignment="CENTER" layoutX="652.0" layoutY="517.0" prefHeight="25.0" prefWidth="92.0" text="0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="gameState" alignment="CENTER" layoutX="24.0" layoutY="287.0" prefHeight="53.0" prefWidth="306.0" style="-fx-background-image: url(state.png); -fx-background-size: stretch" text="aloneInTheField gives the answer">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

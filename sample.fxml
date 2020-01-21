@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="456.0" prefWidth="700.0" style="-fx-background-image: url(polygon-texture-triangle.jpg);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="209.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-stroke: white; -fx-stroke-width: 1px;" text="Jeopardy!">
+         <font>
+            <Font size="66.0" />
+         </font>
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="0.007662835249042145" />
+                  <Stop color="#0f036b" offset="0.2661057787257572" />
+                  <Stop color="#5073ff" offset="0.5297231109531145" />
+                  <Stop color="#0a4461" offset="0.7540387881660542" />
+                  <Stop color="#070646" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Text>
+      <Button layoutX="240.0" layoutY="180.0" mnemonicParsing="false" onAction="#onCreatePackage" prefHeight="25.0" prefWidth="220.0" text="Create new game package">
+         <textFill>
+            <RadialGradient centerX="0.5166666666666667" centerY="0.3142857142857143" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#49418d" offset="0.38807915629813944" />
+                  <Stop color="#422d75" offset="0.6897736698660976" />
+                  <Stop color="#030103" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button layoutX="240.0" layoutY="215.0" mnemonicParsing="false" onAction="#onCreateNewGame" prefHeight="25.0" prefWidth="220.0" text="Create new game">
+         <textFill>
+            <RadialGradient centerX="0.5166666666666667" centerY="0.3142857142857143" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#49418d" offset="0.38807915629813944" />
+                  <Stop color="#422d75" offset="0.6897736698660976" />
+                  <Stop color="#030103" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button layoutX="240.0" layoutY="250.0" mnemonicParsing="false" onAction="#onConnectToGame" prefHeight="25.0" prefWidth="220.0" text="Connect to the game">
+         <textFill>
+            <RadialGradient centerX="0.5166666666666667" centerY="0.3142857142857143" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#49418d" offset="0.38807915629813944" />
+                  <Stop color="#422d75" offset="0.6897736698660976" />
+                  <Stop color="#030103" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button layoutX="240.0" layoutY="390.0" mnemonicParsing="false" onAction="#exit_button" prefHeight="25.0" prefWidth="220.0" text="Exit">
+         <textFill>
+            <RadialGradient centerX="0.5166666666666667" centerY="0.3142857142857143" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#49418d" offset="0.38807915629813944" />
+                  <Stop color="#422d75" offset="0.6897736698660976" />
+                  <Stop color="#030103" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Text fx:id="user_name" layoutX="606.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAVUK" />
+      <ImageView fx:id="user_image" fitHeight="150.0" fitWidth="200.0" layoutX="550.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../EWAcjwxfRTY.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="240.0" layoutY="285.0" mnemonicParsing="false" onAction="#onChangeProfile" prefHeight="25.0" prefWidth="220.0" text="Change profile">
+         <textFill>
+            <RadialGradient centerX="0.5166666666666667" centerY="0.3142857142857143" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#49418d" offset="0.38807915629813944" />
+                  <Stop color="#422d75" offset="0.6897736698660976" />
+                  <Stop color="#030103" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+   </children>
+</AnchorPane>
